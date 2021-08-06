@@ -22,10 +22,10 @@ const Cabecalho = () => {
       <Logo src={bank_logo} alt="Logo Smart Bank" />
       <div>
         <a className="btn-secundario" href="https://google.com">
-          Ajuda
+          Help
         </a>
         <a className="btn-primario" href="https://google.com">
-          Sair
+          Log Out
         </a>
       </div>
     </StyledHeader>
