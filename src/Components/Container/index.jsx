@@ -18,7 +18,7 @@ const Conteudo = styled.section`
 export default () => {
   return (
     <Container>
-      <Titulo>Hello Harry!</Titulo>
+      <Titulo>Hello, Harry!</Titulo>
       <Conteudo>
         <Conta />
       </Conteudo>
