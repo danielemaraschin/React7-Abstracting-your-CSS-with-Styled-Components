@@ -27,7 +27,5 @@ export default () => {
         <Conta />
       </Conteudo>
     </Container>
-
-
   );
 };
