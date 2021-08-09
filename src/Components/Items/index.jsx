@@ -11,6 +11,6 @@ padding: 10px;
 font-size:12px;
 `;
 
-export default (props) => {
+export default () => {
     return <Items></Items>;
 };
