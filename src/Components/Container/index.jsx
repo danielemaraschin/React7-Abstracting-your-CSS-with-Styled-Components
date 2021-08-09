@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Titulo from "../Titulo";
 import Conta from "../Conta";
-import Extrato from '../Extrato'
+import Extrato from '../Extrato';
 
 const Container = styled.div`
 background-color: #f1f1f1;
