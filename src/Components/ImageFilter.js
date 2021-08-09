@@ -12,7 +12,7 @@ export default (type) => {
         Utilidades: <Icone src={utilidades} alt="Utilidades"/>,
         Saude: <Icone src={saude} alt="Saude"/>,
         Transporte: <Icone src={transporte} alt="Transporte"/>,
-        default: <Icone src={outros} alt="Outro" />,
+        default: <Icone src={outros} alt="Outros" />,
     };
 
     return Images[type] || Images.default;
