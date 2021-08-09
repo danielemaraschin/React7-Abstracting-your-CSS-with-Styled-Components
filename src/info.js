@@ -1,3 +1,4 @@
+//esse arquivo representa uma APi externa , seriam as informacoes do banco
 export const extratoLista = {
   updates: [
     {
