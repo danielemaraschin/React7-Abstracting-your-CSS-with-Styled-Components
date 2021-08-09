@@ -8,11 +8,11 @@ import {Icone} from '../Components/UI'
 
 export default (type) => {
     const Images = { //chave sera o correspondente para o tipo e o valor seráo componente a ser retornado
-        Restaurante: <Icone src={alimentacao} alt="Restaurante"/>,
-        Utilidades: <Icone src={utilidades} alt="Utilidades"/>,
-        Saude: <Icone src={saude} alt="Saude"/>,
-        Transporte: <Icone src={transporte} alt="Transporte"/>,
-        default: <Icone src={outros} alt="Outros" />,
+        Restaurant: <Icone src={alimentacao} alt="Restaurant"/>,
+        Utilities: <Icone src={utilidades} alt="Utilities"/>,
+        Health: <Icone src={saude} alt="Health"/>,
+        Transport: <Icone src={transporte} alt="Transport"/>,
+        default: <Icone src={outros} alt="Others" />,
     };
 
     return Images[type] || Images.default;
