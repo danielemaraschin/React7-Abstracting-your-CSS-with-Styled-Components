@@ -8,5 +8,6 @@ export const GlobalStyled =  createGlobalStyle`
     padding: 0;
     text-decoration: none;
 }
-`; //aqui dentro da crase colocamos todo o reset do css que queremos dar RESET
+`;
+//aqui dentro da crase colocamos todo o reset do css que queremos dar RESET
 //Podemos recortar do arquivo do css
