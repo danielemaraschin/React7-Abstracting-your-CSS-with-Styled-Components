@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { ThemeProvider } from "styled-components";
 import { temaClaro, temaEscuro } from "./Components/UI/temas";
 
@@ -9,11 +9,17 @@ import { BtnTema } from "./Components/UI";
 import SwitcherTheme from "./Components/SwitcherTheme";
 
 function App() {
+  const [tema, setTema] = useState(true)
+
+  const toggleTema= () => {
+    setTema((tema) => !tema); //é um tema,apertando no botao troca pro outro tema (se é t vira f se eh false vira true)
+  };
+
   return (
-    <ThemeProvider theme={temaEscuro}>
+    <ThemeProvider theme={tema ? temaClaro : temaEscuro}>
     <GlobalStyled/>
-    <BtnTema>
-      <SwitcherTheme></SwitcherTheme>
+    <BtnTema onClick={toggleTema}>
+      <SwitcherTheme tema ={tema}/>
     </BtnTema>
       <Cabecalho />
       <Container />
