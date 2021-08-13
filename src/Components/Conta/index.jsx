@@ -5,7 +5,7 @@ import olho_icone from "../../assets/images/olho.svg";
 import dinheiro from "../../assets/images/dinheiro.svg";
 import styled from "styled-components";
 
-import { Icone, Box, Botao, Detalhe, Saldo } from "../UI";
+import { Icone, Box, Botao, Detalhe, Saldo, IconeTema } from "../UI";
 //ao inves de dar ponto final e abrir crase,abrimos parenteses e colocamos dentro o componente que estaremos herdando o estilo
 const IconeMargin = styled(Icone)`
   margin-top:2px;
@@ -23,7 +23,7 @@ const Conta = () => {
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
         Current Balance{" "}
         <span>
-          <Icone src={dinheiro} alt="Ícone Saldo" />
+          <IconeTema src={dinheiro} alt="Ícone Saldo" />
         </span>
         {toggleState ? (
           <Saldo>
